@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app="BeerApp">
+<head>
+  <title ng-bind="title">BeerApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all'  %>
+  <%= javascript_include_tag 'application'  %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
